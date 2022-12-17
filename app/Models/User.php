@@ -21,6 +21,8 @@ class User extends Authenticatable implements MustVerifyEmail
         'name',
         'email',
         'password',
+        'webhook_url',
+        'webhook_url_format_type',
     ];
 
     /**
